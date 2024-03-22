@@ -14,3 +14,54 @@
     --color-main-black: #3e3e3e;
     --color-orange-main: #fe9519;
 }
+.footerbar{
+    background-color: var(--color-main-black);
+    display: block;
+}
+.footer_txt_div{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1px;
+    margin: auto;
+
+}
+.footer_title{
+    font-family: "Gmarket Sans";
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.footer_menus{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 30px;
+    margin: auto;
+
+}
+.managers{
+    font-family: "Gmarket Sans";
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 13px;
+    text-decoration: none;
+}
+.KAU_likelion{
+    font-family: "Gmarket Sans";
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.likelion_Univ{
+    font-family: "Gmarket Sans";
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 13px;
+    text-decoration: none;
+}
