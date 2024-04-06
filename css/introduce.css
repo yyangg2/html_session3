@@ -1,0 +1,96 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --color-main-black: #3e3e3e;
+    --color-orange-main: #fe9519;
+}
+
+.nav{
+    background-color: var(--color-main-black);
+    display: flex;
+}
+.nav_title_txt{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.myPage_title{
+    font-family: "Gmarket Sans";
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+.photo_kau{
+    width: 50px;
+    display: block;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+.kau_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.photo_likelion{
+    width: 50px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 0px;
+}
+.kau_likelion_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+.myPage{
+    text-align: center;
+}
+.base{
+    font-family: "Gmarket Sans";
+    font-weight: lighter;
+    font-size: 17px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.name{
+    font-family: "GmarketSansMedium";
+    font-size: 15px;
+}
+.nickname{
+    font-family: "GmarketSansMedium";
+    font-size: 15px;
+}
+.major{
+    font-family: "GmarketSansMedium";
+    font-size: 15px;
+}
+.grade{
+    font-family: "GmarketSansMedium";
+    font-size: 15px;
+}
+.linkPage{
+    text-align: center;
+    margin-top: 50px;
+}
+.clickLink{
+    font-family: "Gmarket Sans";
+    font-size: 20px;
+}
